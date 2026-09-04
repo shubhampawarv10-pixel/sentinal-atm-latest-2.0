@@ -1,0 +1,13 @@
+{
+  "name": "project",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cd sentinal-atm-main && vite --port 3000 --host",
+    "build": "cd sentinal-atm-main && tsc -b && vite build",
+    "preview": "cd sentinal-atm-main && vite preview"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
