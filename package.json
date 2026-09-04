@@ -4,10 +4,30 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "cd project/sentinal-atm-main && npx vite --port 3000 --host",
-    "build": "cd project/sentinal-atm-main && npx tsc -b && npx vite build",
-    "preview": "cd project/sentinal-atm-main && npx vite preview"
+    "dev": "vite --port 3000 --host",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --port 3000 --host"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "clsx": "^2.1.1",
+    "crypto-js": "^4.2.0",
+    "lucide-react": "^0.414.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0",
+    "tailwind-merge": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^26.4.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4"
+  }
 }
