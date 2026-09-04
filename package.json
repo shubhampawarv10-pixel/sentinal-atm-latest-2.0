@@ -1,0 +1,13 @@
+{
+  "name": "project",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cd project/sentinal-atm-main && npx vite --port 3000 --host",
+    "build": "cd project/sentinal-atm-main && npx tsc -b && npx vite build",
+    "preview": "cd project/sentinal-atm-main && npx vite preview"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
